@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  margin: 40px;
+}
+input {
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+}
+text {
+  font-size: xx-large;
+}
+.card {
+  color: blueviolet;
+  cursor: pointer;
+  font-size: x-large;
+  font-style: normal;
+
+}
+button {
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: aquamarine;
+
+  transition: 0.5s;
+}
+button:hover {
+  box-shadow: 0 2px 2px 1px rgb(4, 209, 141);
+}
+.a {
+  margin: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+ul{
+  color: darkorchid;
+  font-size: xx-large;
+  font-style: italic;
+
+}
