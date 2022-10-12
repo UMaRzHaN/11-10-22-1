@@ -11,8 +11,17 @@
 .container {
   display: grid;
   align-items: center;
+
   gap: 10px;
   margin: 40px;
+  padding-top: 95px;
+  padding-left: 210px;
+  font-family: "Alkalami", serif;
+  text-decoration: double;
+  background-image: url(../img/8-82530_memory-note-notepad-word-writing-transparent-background-paper.png);
+  background-repeat: no-repeat;
+  /* transform: rotate(3grad); */
+
 }
 input {
   border-radius: 5px;
@@ -25,9 +34,9 @@ text {
 .card {
   color: blueviolet;
   cursor: pointer;
-  font-size: x-large;
-  font-style: normal;
-
+  font-size: large;
+  width: max-content;
+  transform: rotate(3grad);
 }
 button {
   height: 25px;
@@ -47,9 +56,8 @@ button:hover {
   justify-content: center;
   gap: 10px;
 }
-ul{
+ul {
   color: darkorchid;
   font-size: xx-large;
   font-style: italic;
-
 }
